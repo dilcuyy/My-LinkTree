@@ -1,0 +1,126 @@
+:root {
+    --deep-space: #1B263B;
+    --dusty-rose: #ffffff;
+    --shadow-blue: #4C5B61;
+    --serene-sage: #9CAFB7;
+    --mystic-mauve: #4C5B61;
+    --quiet-emerald: #3D5A80;
+  }
+  
+  body {
+      padding: 0;
+      margin: 0;
+      background: var(--deep-space);
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .nama {
+      text-align: center;
+      background-color: var(--dusty-rose);
+      font-size: 35px;
+      text-transform: uppercase;
+      position: relative;
+      color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+      font-weight: bold;
+  }
+  
+  header {
+      background-image: url('../assets/Profile.jpeg');
+      background-position: center;
+      background-size: cover;
+      border-radius: 50%;
+      border: 5px solid var(--mystic-mauve);
+      width: 120px;
+      height: 120px;
+      position: relative;
+      margin: 30px auto -50px;
+  }
+  
+  .container {
+      border-radius: 7px;
+      width: 95%;
+      margin: 0 auto;
+      background-color: var(--shadow-blue);
+  }
+  
+  main {
+      padding: 65px 60px 35px;
+  }
+  
+  main a {
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+  }
+  
+  .kotak-link {
+      border-radius: 5px;
+      margin: 15px 0 19px;
+      padding: 8px;
+      background-color: var(--deep-space);
+      box-shadow: 2px 3px 3px 2px rgb(41, 40, 40);
+  }
+  
+  .kotak-link>.logo {
+      padding: 23px;
+      background-size: cover;
+      background-position: center;
+  }
+  
+  .kotak-link>.portofolio {
+      background-image: url('../assets/cv.png');
+  }
+  
+  .kotak-link>.whatsapp {
+      background-image: url('../assets/whatsapp.png');
+  }
+  
+  .kotak-link>.instagram {
+      background-image: url('../assets/instagram.png');
+  }
+  
+  .kotak-link>.linkedin {
+      background-image: url('../assets/linkedin.png');
+  }
+  
+  .kotak-link>p {
+      font-size: 25px;
+      text-transform: capitalize;
+      margin-left: 20px;
+      width: 100%;
+      color: var(--dusty-rose);
+  }
+  
+  .kotak-link:hover {
+      transition: .3s;
+      opacity: .9;
+  }
+  
+  footer {
+      margin: 10px 0;
+      text-align: center;
+      padding: 5px;
+  }
+  
+  footer>a {
+      font-size: 21px;
+      text-decoration: none;
+      color: var(--dusty-rose);
+      text-transform: capitalize;
+  }
+  
+  /* MEDIA QUERY */
+  
+  @media (max-width: 400px) {
+      main {
+          padding: 65px 30px;
+      }
+      .kotak-link>p {
+          font-size: 19px;
+      }
+  }
+  
